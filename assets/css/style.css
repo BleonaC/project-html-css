@@ -36,7 +36,7 @@ p {
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
@@ -291,7 +291,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	/*background-image: url(./img/img-1.png);*/
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -332,9 +332,6 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
-}
-#projects .projects-header h1 {
-	margin-bottom: 50px;
 }
 #projects .all-projects {
 	display: flex;
@@ -444,6 +441,9 @@ p {
 	width: 98%;
 	border: 7px solid crimson;
 	z-index: -1;
+}
+.about .section-title {
+	margin-bottom: 10px;
 }
 /* End About  */
 
